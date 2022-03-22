@@ -4,8 +4,10 @@ import {Item} from './types/Files';
 
 const App = () => {
   const [list, setList] = useState<Item[]>([
-    {id: 1, name: 'estudar', done: false},
-    {id: 2, name: 'trabalhar', done: false},
+    {id: 1, name: 'Estudar', done: false},
+    {id: 2, name: 'Trabalhar', done: false},
+    {id: 3, name: 'Lavar Vasilhas', done: false},
+    {id: 4, name: 'Treinar mais', done: false},
   ]);
     return (
       <C.Container>
