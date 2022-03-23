@@ -23,7 +23,7 @@ export const Container = styled.div(( { done }: ContainerProps) => (
 
         label {
                 color: #CCC;
-                text-decoration: ${done ? 'line-through' : 'inicial'}
+                text-decoration: ${done ? 'line-through' : 'initial'}
         }
 `
 )) ;
