@@ -21,7 +21,7 @@ export const AddArea = ({onEnter}: Props) => {
             <div className='image'>➕</div>
             <input 
                 type="text" 
-                placeholder="Aicione uma Tarefa"
+                placeholder="Adicione uma Tarefa"
                 value={inputText}
                 onChange={e => setInputText(e.target.value)}
                 onKeyUp = {handleKeyUp}
